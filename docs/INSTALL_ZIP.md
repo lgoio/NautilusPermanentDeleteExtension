@@ -5,14 +5,22 @@
 Ubuntu:
 
 ```bash
-sudo apt install python3-nautilus
+sudo apt install python3-nautilus unzip
+```
+
+## Download
+
+```bash
+wget https://github.com/lgoio/NautilusPermanentDeleteExtension/releases/download/0.1.0/nautilus-permanent-delete-extension-0.1.0.zip
 ```
 
 ## Install
 
-Extract the ZIP archive.
-
 ```bash
+unzip nautilus-permanent-delete-extension-0.1.0.zip
+
+cd nautilus-permanent-delete-extension-0.1.0
+
 mkdir -p ~/.local/share/nautilus-python/extensions
 
 cp nautilus_permanent_delete_extension.py \
@@ -20,26 +28,8 @@ cp nautilus_permanent_delete_extension.py \
 
 cp -r nautilus-permanent-delete-extension \
    ~/.local/share/nautilus-python/extensions/
-```
 
-Restart Nautilus:
-
-```bash
 nautilus -q
-```
-
-## Optional User Configuration
-
-Create your own protected and allowed path rules:
-
-```bash
-mkdir -p ~/.config/nautilus-permanent-delete-extension
-
-cp ~/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/example_user_protected_paths.conf \
-   ~/.config/nautilus-permanent-delete-extension/user_protected_paths.conf
-
-cp ~/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/example_user_allowed_paths.conf \
-   ~/.config/nautilus-permanent-delete-extension/user_allowed_paths.conf
 ```
 
 ## Uninstall

@@ -30,3 +30,5 @@ translations/*.pot
 
 # Optional: generated POT in project root
 *.pot
+
+build/
