@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-permanent-delete-extension\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:157
+#, python-format
+msgid "Failed to read path rules file: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:266
+msgid "Delete Permanently"
+msgstr "Supprimer définitivement"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:267
+msgid "Delete selected items permanently"
+msgstr "Supprimer définitivement les éléments sélectionnés"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:497
+msgid "The following folder will be permanently deleted:"
+msgstr "Le dossier suivant sera supprimé définitivement :"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:499
+msgid "The following file will be permanently deleted:"
+msgstr "Le fichier suivant sera supprimé définitivement :"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:502
+msgid "The following files and folders will be permanently deleted:"
+msgstr "Les fichiers et dossiers suivants seront supprimés définitivement :"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:505
+msgid "The following folders will be permanently deleted:"
+msgstr "Les dossiers suivants seront supprimés définitivement :"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:507
+msgid "The following files will be permanently deleted:"
+msgstr "Les fichiers suivants seront supprimés définitivement :"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:529
+msgid "Delete Folder Permanently?"
+msgstr "Supprimer le dossier définitivement ?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:531
+msgid "Delete File Permanently?"
+msgstr "Supprimer le fichier définitivement ?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:534
+#, python-format
+msgid "Delete %(folders)d folders and %(files)d files Permanently?"
+msgstr "Supprimer définitivement %(folders)d dossiers et %(files)d fichiers ?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:541
+#, python-format
+msgid "Delete %d folder Permanently?"
+msgid_plural "Delete %d folders Permanently?"
+msgstr[0] "Supprimer définitivement %d dossier ?"
+msgstr[1] "Supprimer définitivement %d dossiers ?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:547
+#, python-format
+msgid "Delete %d file Permanently?"
+msgid_plural "Delete %d files Permanently?"
+msgstr[0] "Supprimer définitivement %d fichier ?"
+msgstr[1] "Supprimer définitivement %d fichiers ?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:557
+#, python-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d dossier"
+msgstr[1] "%d dossiers"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:562
+#, python-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d fichier"
+msgstr[1] "%d fichiers"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:566
+#, python-format
+msgid "Size: %s"
+msgstr "Taille : %s"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:642
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:794
+msgid "_Cancel"
+msgstr "_Annuler"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:643
+msgid "Delete _Permanently"
+msgstr "Supprimer _définitivement"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:686
+msgid "Warning: Deletion requires additional confirmation."
+msgstr "Avertissement : la suppression nécessite une confirmation supplémentaire."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:696
+msgid "I understand the risk."
+msgstr "Je comprends le risque."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:766
+msgid "Deleting Files"
+msgstr "Suppression des fichiers"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:819
+msgid "Canceling..."
+msgstr "Annulation…"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:831
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:844
+msgid "Some Items Could Not Be Deleted"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:849
+msgid "Some items could not be deleted because an error occurred."
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:870
+#, python-format
+msgid "%d more errors were not shown."
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:881
+msgid "_Close"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:893
+msgid "Deletion canceled."
+msgstr "Suppression annulée."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:897
+msgid "Deletion finished."
+msgstr "Suppression terminée."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:918
+#, python-format
+msgid "Failed to delete file: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:936
+#, python-format
+msgid "Failed to delete folder: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:972
+msgid "Deleting:"
+msgstr "Suppression :"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:975
+#, python-format
+msgid "Files: %(done)d / %(total)d"
+msgstr "Fichiers : %(done)d / %(total)d"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:979
+#, python-format
+msgid "Folders: %(done)d / %(total)d"
+msgstr "Dossiers : %(done)d / %(total)d"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:983
+#, python-format
+msgid "Size: %(done)s / %(total)s"
+msgstr "Taille : %(done)s / %(total)s"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:991
+#, python-format
+msgid "Estimated time remaining: %d s"
+msgstr "Temps restant estimé : %d s"

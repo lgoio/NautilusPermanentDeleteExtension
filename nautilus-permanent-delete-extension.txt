@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 17:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:98
+msgid "Delete Permanently"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:99
+msgid "Delete selected items permanently"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:273
+msgid "The following folder will be permanently deleted:"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:275
+msgid "The following file will be permanently deleted:"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:278
+msgid "The following files and folders will be permanently deleted:"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:281
+msgid "The following folders will be permanently deleted:"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:283
+msgid "The following files will be permanently deleted:"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:290
+#, python-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:295
+#, python-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:299
+#, python-format
+msgid "Size: %s"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:318
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:331
+msgid "Delete Permanently?"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:347
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:435
+msgid "_Cancel"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:348
+msgid "Delete _Permanently"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:410
+msgid "Deleting Files"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:459
+msgid "Canceling..."
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:485
+msgid "Deletion canceled."
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:489
+msgid "Deletion finished."
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:553
+msgid "Deleting:"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:556
+#, python-format
+msgid "Files: %(done)d / %(total)d"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:560
+#, python-format
+msgid "Folders: %(done)d / %(total)d"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:564
+#, python-format
+msgid "Size: %(done)s / %(total)s"
+msgstr ""
+
+#: /home/dwd/.local/share/nautilus-python/extensions/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:572
+#, python-format
+msgid "Estimated time remaining: %d s"
+msgstr ""

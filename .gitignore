@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+*.zip
+
+# gettext
+*.mo
+
+# Editor
+*~
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Local test files
+test/
+tmp/
+
+# Generated translation template
+translations/*.pot
+
+# Optional: generated POT in project root
+*.pot

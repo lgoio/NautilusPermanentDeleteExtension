@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-permanent-delete-extension\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:157
+#, python-format
+msgid "Failed to read path rules file: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:266
+msgid "Delete Permanently"
+msgstr "Trvale smazat"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:267
+msgid "Delete selected items permanently"
+msgstr "Trvale smazat vybrané položky"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:497
+msgid "The following folder will be permanently deleted:"
+msgstr "Následující složka bude trvale smazána:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:499
+msgid "The following file will be permanently deleted:"
+msgstr "Následující soubor bude trvale smazán:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:502
+msgid "The following files and folders will be permanently deleted:"
+msgstr "Následující soubory a složky budou trvale smazány:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:505
+msgid "The following folders will be permanently deleted:"
+msgstr "Následující složky budou trvale smazány:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:507
+msgid "The following files will be permanently deleted:"
+msgstr "Následující soubory budou trvale smazány:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:529
+msgid "Delete Folder Permanently?"
+msgstr "Trvale smazat složku?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:531
+msgid "Delete File Permanently?"
+msgstr "Trvale smazat soubor?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:534
+#, python-format
+msgid "Delete %(folders)d folders and %(files)d files Permanently?"
+msgstr "Trvale smazat %(folders)d složek a %(files)d souborů?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:541
+#, python-format
+msgid "Delete %d folder Permanently?"
+msgid_plural "Delete %d folders Permanently?"
+msgstr[0] "Trvale smazat %d složku?"
+msgstr[1] "Trvale smazat %d složky?"
+msgstr[2] "Trvale smazat %d složek?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:547
+#, python-format
+msgid "Delete %d file Permanently?"
+msgid_plural "Delete %d files Permanently?"
+msgstr[0] "Trvale smazat %d soubor?"
+msgstr[1] "Trvale smazat %d soubory?"
+msgstr[2] "Trvale smazat %d souborů?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:557
+#, python-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d složka"
+msgstr[1] "%d složky"
+msgstr[2] "%d složek"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:562
+#, python-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d soubor"
+msgstr[1] "%d soubory"
+msgstr[2] "%d souborů"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:566
+#, python-format
+msgid "Size: %s"
+msgstr "Velikost: %s"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:642
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:794
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:643
+msgid "Delete _Permanently"
+msgstr "Smazat _trvale"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:686
+msgid "Warning: Deletion requires additional confirmation."
+msgstr "Varování: odstranění vyžaduje dodatečné potvrzení."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:696
+msgid "I understand the risk."
+msgstr "Rozumím riziku."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:766
+msgid "Deleting Files"
+msgstr "Mazání souborů"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:819
+msgid "Canceling..."
+msgstr "Ruší se..."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:831
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:844
+msgid "Some Items Could Not Be Deleted"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:849
+msgid "Some items could not be deleted because an error occurred."
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:870
+#, python-format
+msgid "%d more errors were not shown."
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:881
+msgid "_Close"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:893
+msgid "Deletion canceled."
+msgstr "Mazání bylo zrušeno."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:897
+msgid "Deletion finished."
+msgstr "Mazání dokončeno."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:918
+#, python-format
+msgid "Failed to delete file: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:936
+#, python-format
+msgid "Failed to delete folder: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:972
+msgid "Deleting:"
+msgstr "Maže se:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:975
+#, python-format
+msgid "Files: %(done)d / %(total)d"
+msgstr "Soubory: %(done)d / %(total)d"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:979
+#, python-format
+msgid "Folders: %(done)d / %(total)d"
+msgstr "Složky: %(done)d / %(total)d"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:983
+#, python-format
+msgid "Size: %(done)s / %(total)s"
+msgstr "Velikost: %(done)s / %(total)s"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:991
+#, python-format
+msgid "Estimated time remaining: %d s"
+msgstr "Odhadovaný zbývající čas: %d s"

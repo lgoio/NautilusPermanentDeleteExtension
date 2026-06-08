@@ -1,0 +1,8 @@
+{
+  "name": "Nautilus Permanent Delete Extension",
+  "description": "Adds a custom permanent delete action for Nautilus with confirmation, progress, cancel support, and translations.",
+  "uuid": "nautilus-permanent-delete-extension@lgo.io",
+  "url": "https://github.com/lgoio/nautilus-permanent-delete-extension",
+  "gettext-domain": "nautilus-permanent-delete-extension",
+  "version": "0.1.0"
+}

@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-permanent-delete-extension\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:157
+#, python-format
+msgid "Failed to read path rules file: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:266
+msgid "Delete Permanently"
+msgstr "Poista pysyvästi"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:267
+msgid "Delete selected items permanently"
+msgstr "Poista valitut kohteet pysyvästi"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:497
+msgid "The following folder will be permanently deleted:"
+msgstr "Seuraava kansio poistetaan pysyvästi:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:499
+msgid "The following file will be permanently deleted:"
+msgstr "Seuraava tiedosto poistetaan pysyvästi:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:502
+msgid "The following files and folders will be permanently deleted:"
+msgstr "Seuraavat tiedostot ja kansiot poistetaan pysyvästi:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:505
+msgid "The following folders will be permanently deleted:"
+msgstr "Seuraavat kansiot poistetaan pysyvästi:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:507
+msgid "The following files will be permanently deleted:"
+msgstr "Seuraavat tiedostot poistetaan pysyvästi:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:529
+msgid "Delete Folder Permanently?"
+msgstr "Poistetaanko kansio pysyvästi?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:531
+msgid "Delete File Permanently?"
+msgstr "Poistetaanko tiedosto pysyvästi?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:534
+#, python-format
+msgid "Delete %(folders)d folders and %(files)d files Permanently?"
+msgstr "Poistetaanko %(folders)d kansiota ja %(files)d tiedostoa pysyvästi?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:541
+#, python-format
+msgid "Delete %d folder Permanently?"
+msgid_plural "Delete %d folders Permanently?"
+msgstr[0] "Poistetaanko %d kansio pysyvästi?"
+msgstr[1] "Poistetaanko %d kansiota pysyvästi?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:547
+#, python-format
+msgid "Delete %d file Permanently?"
+msgid_plural "Delete %d files Permanently?"
+msgstr[0] "Poistetaanko %d tiedosto pysyvästi?"
+msgstr[1] "Poistetaanko %d tiedostoa pysyvästi?"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:557
+#, python-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d kansio"
+msgstr[1] "%d kansiota"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:562
+#, python-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d tiedosto"
+msgstr[1] "%d tiedostoa"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:566
+#, python-format
+msgid "Size: %s"
+msgstr "Koko: %s"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:642
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:794
+msgid "_Cancel"
+msgstr "_Peru"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:643
+msgid "Delete _Permanently"
+msgstr "Poista _pysyvästi"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:686
+msgid "Warning: Deletion requires additional confirmation."
+msgstr "Varoitus: poistaminen vaatii lisävahvistuksen."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:696
+msgid "I understand the risk."
+msgstr "Ymmärrän riskin."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:766
+msgid "Deleting Files"
+msgstr "Poistetaan tiedostoja"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:819
+msgid "Canceling..."
+msgstr "Perutaan..."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:831
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:844
+msgid "Some Items Could Not Be Deleted"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:849
+msgid "Some items could not be deleted because an error occurred."
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:870
+#, python-format
+msgid "%d more errors were not shown."
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:881
+msgid "_Close"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:893
+msgid "Deletion canceled."
+msgstr "Poisto peruttiin."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:897
+msgid "Deletion finished."
+msgstr "Poisto valmis."
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:918
+#, python-format
+msgid "Failed to delete file: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:936
+#, python-format
+msgid "Failed to delete folder: %s: %s"
+msgstr ""
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:972
+msgid "Deleting:"
+msgstr "Poistetaan:"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:975
+#, python-format
+msgid "Files: %(done)d / %(total)d"
+msgstr "Tiedostot: %(done)d / %(total)d"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:979
+#, python-format
+msgid "Folders: %(done)d / %(total)d"
+msgstr "Kansiot: %(done)d / %(total)d"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:983
+#, python-format
+msgid "Size: %(done)s / %(total)s"
+msgstr "Koko: %(done)s / %(total)s"
+
+#: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:991
+#, python-format
+msgid "Estimated time remaining: %d s"
+msgstr "Arvioitu jäljellä oleva aika: %d s"
