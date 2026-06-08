@@ -862,6 +862,113 @@ translations.update({'Warning: Deletion requires additional confirmation.': {'ar
  'Failed to delete folder: %s: %s': {'de': 'Ordner konnte nicht gelöscht werden: %s: %s'}})
 
 
+# Additional strings used by the runtime error dialog.
+translations.update({'Some Items Could Not Be Deleted': {'ar': 'تعذر حذف بعض العناصر',
+                                     'ca': "No s'han pogut suprimir alguns elements",
+                                     'cs': 'Některé položky se nepodařilo smazat',
+                                     'de': 'Einige Elemente konnten nicht gelöscht werden',
+                                     'el': 'Δεν ήταν δυνατή η διαγραφή ορισμένων στοιχείων',
+                                     'es': 'No se pudieron eliminar algunos elementos',
+                                     'eu': 'Ezin izan dira elementu batzuk ezabatu',
+                                     'fa': 'برخی موارد حذف نشدند',
+                                     'fi': 'Joitakin kohteita ei voitu poistaa',
+                                     'fr': "Certains éléments n'ont pas pu être supprimés",
+                                     'hu': 'Néhány elemet nem sikerült törölni',
+                                     'it': 'Impossibile eliminare alcuni elementi',
+                                     'ja': '一部の項目を削除できませんでした',
+                                     'nl': 'Sommige items konden niet worden verwijderd',
+                                     'oc': "D'unes elements se son pas poguts suprimir",
+                                     'pl': 'Nie udało się usunąć niektórych elementów',
+                                     'pt_BR': 'Alguns itens não puderam ser excluídos',
+                                     'ru': 'Некоторые элементы не удалось удалить',
+                                     'sk': 'Niektoré položky sa nepodarilo odstrániť',
+                                     'tr': 'Bazı öğeler silinemedi',
+                                     'uk': 'Не вдалося видалити деякі елементи',
+                                     'zh_CN': '某些项目无法删除'},
+ 'Some items could not be deleted because an error occurred.': {'ar': 'تعذر حذف بعض العناصر بسبب حدوث خطأ.',
+                                                                'ca': "No s'han pogut suprimir alguns elements perquè "
+                                                                      "s'ha produït un error.",
+                                                                'cs': 'Některé položky se nepodařilo smazat, protože '
+                                                                      'došlo k chybě.',
+                                                                'de': 'Einige Elemente konnten nicht gelöscht werden, '
+                                                                      'weil ein Fehler aufgetreten ist.',
+                                                                'el': 'Δεν ήταν δυνατή η διαγραφή ορισμένων στοιχείων '
+                                                                      'επειδή παρουσιάστηκε σφάλμα.',
+                                                                'es': 'No se pudieron eliminar algunos elementos '
+                                                                      'porque se produjo un error.',
+                                                                'eu': 'Ezin izan dira elementu batzuk ezabatu errore '
+                                                                      'bat gertatu delako.',
+                                                                'fa': 'برخی موارد به دلیل رخ دادن خطا حذف نشدند.',
+                                                                'fi': 'Joitakin kohteita ei voitu poistaa virheen '
+                                                                      'vuoksi.',
+                                                                'fr': "Certains éléments n'ont pas pu être supprimés "
+                                                                      "car une erreur s'est produite.",
+                                                                'hu': 'Néhány elemet nem sikerült törölni, mert hiba '
+                                                                      'történt.',
+                                                                'it': 'Impossibile eliminare alcuni elementi perché si '
+                                                                      'è verificato un errore.',
+                                                                'ja': 'エラーが発生したため、一部の項目を削除できませんでした。',
+                                                                'nl': 'Sommige items konden niet worden verwijderd '
+                                                                      'omdat er een fout is opgetreden.',
+                                                                'oc': "D'unes elements se son pas poguts suprimir "
+                                                                      "perque una error s'es producha.",
+                                                                'pl': 'Nie udało się usunąć niektórych elementów, '
+                                                                      'ponieważ wystąpił błąd.',
+                                                                'pt_BR': 'Alguns itens não puderam ser excluídos '
+                                                                         'porque ocorreu um erro.',
+                                                                'ru': 'Некоторые элементы не удалось удалить из-за '
+                                                                      'ошибки.',
+                                                                'sk': 'Niektoré položky sa nepodarilo odstrániť, '
+                                                                      'pretože sa vyskytla chyba.',
+                                                                'tr': 'Bir hata oluştuğu için bazı öğeler silinemedi.',
+                                                                'uk': 'Не вдалося видалити деякі елементи, оскільки '
+                                                                      'сталася помилка.',
+                                                                'zh_CN': '由于发生错误，某些项目无法删除。'},
+ '%d more errors were not shown.': {'ar': 'لم يتم عرض %d أخطاء أخرى.',
+                                    'ca': "No s'han mostrat %d errors més.",
+                                    'cs': '%d dalších chyb nebylo zobrazeno.',
+                                    'de': '%d weitere Fehler wurden nicht angezeigt.',
+                                    'el': 'Δεν εμφανίστηκαν %d ακόμη σφάλματα.',
+                                    'es': 'No se mostraron %d errores más.',
+                                    'eu': 'Beste %d errore ez dira erakutsi.',
+                                    'fa': '%d خطای دیگر نمایش داده نشد.',
+                                    'fi': '%d muuta virhettä ei näytetty.',
+                                    'fr': "%d autres erreurs n'ont pas été affichées.",
+                                    'hu': '%d további hiba nem lett megjelenítve.',
+                                    'it': '%d altri errori non sono stati mostrati.',
+                                    'ja': 'さらに %d 件のエラーは表示されていません。',
+                                    'nl': '%d andere fouten zijn niet weergegeven.',
+                                    'oc': '%d autras errors son pas estadas afichadas.',
+                                    'pl': 'Nie pokazano %d kolejnych błędów.',
+                                    'pt_BR': '%d erros adicionais não foram mostrados.',
+                                    'ru': 'Ещё %d ошибок не показано.',
+                                    'sk': '%d ďalších chýb nebolo zobrazených.',
+                                    'tr': '%d hata daha gösterilmedi.',
+                                    'uk': 'Ще %d помилок не показано.',
+                                    'zh_CN': '还有 %d 个错误未显示。'},
+ '_Close': {'ar': '_إغلاق',
+            'ca': '_Tanca',
+            'cs': '_Zavřít',
+            'de': '_Schließen',
+            'el': '_Κλείσιμο',
+            'es': '_Cerrar',
+            'eu': '_Itxi',
+            'fa': '_بستن',
+            'fi': '_Sulje',
+            'fr': '_Fermer',
+            'hu': '_Bezárás',
+            'it': '_Chiudi',
+            'ja': '_閉じる',
+            'nl': '_Sluiten',
+            'oc': '_Tampar',
+            'pl': '_Zamknij',
+            'pt_BR': '_Fechar',
+            'ru': '_Закрыть',
+            'sk': '_Zavrieť',
+            'tr': '_Kapat',
+            'uk': '_Закрити',
+            'zh_CN': '_关闭'}})
+
 plural_translations = {
     "%d folder": {
         "ar": ["%d مجلد", "%d مجلد", "%d مجلدان", "%d مجلدات", "%d مجلدًا", "%d مجلد"],

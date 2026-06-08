@@ -119,20 +119,20 @@ msgstr "Anullacion..."
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:831
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:844
 msgid "Some Items Could Not Be Deleted"
-msgstr ""
+msgstr "D'unes elements se son pas poguts suprimir"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:849
 msgid "Some items could not be deleted because an error occurred."
-msgstr ""
+msgstr "D'unes elements se son pas poguts suprimir perque una error s'es producha."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:870
 #, python-format
 msgid "%d more errors were not shown."
-msgstr ""
+msgstr "%d autras errors son pas estadas afichadas."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:881
 msgid "_Close"
-msgstr ""
+msgstr "_Tampar"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:893
 msgid "Deletion canceled."

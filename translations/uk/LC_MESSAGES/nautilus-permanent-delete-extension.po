@@ -123,20 +123,20 @@ msgstr "Скасування..."
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:831
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:844
 msgid "Some Items Could Not Be Deleted"
-msgstr ""
+msgstr "Не вдалося видалити деякі елементи"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:849
 msgid "Some items could not be deleted because an error occurred."
-msgstr ""
+msgstr "Не вдалося видалити деякі елементи, оскільки сталася помилка."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:870
 #, python-format
 msgid "%d more errors were not shown."
-msgstr ""
+msgstr "Ще %d помилок не показано."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:881
 msgid "_Close"
-msgstr ""
+msgstr "_Закрити"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:893
 msgid "Deletion canceled."

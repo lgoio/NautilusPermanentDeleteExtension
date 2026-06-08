@@ -119,20 +119,20 @@ msgstr "Ακύρωση..."
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:831
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:844
 msgid "Some Items Could Not Be Deleted"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η διαγραφή ορισμένων στοιχείων"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:849
 msgid "Some items could not be deleted because an error occurred."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η διαγραφή ορισμένων στοιχείων επειδή παρουσιάστηκε σφάλμα."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:870
 #, python-format
 msgid "%d more errors were not shown."
-msgstr ""
+msgstr "Δεν εμφανίστηκαν %d ακόμη σφάλματα."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:881
 msgid "_Close"
-msgstr ""
+msgstr "_Κλείσιμο"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:893
 msgid "Deletion canceled."

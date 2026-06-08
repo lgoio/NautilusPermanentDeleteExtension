@@ -2,7 +2,11 @@ PYTHON_FILE = nautilus_permanent_delete_extension.py
 TRANSLATION_SCRIPT = generate_translations.sh
 TRANSLATIONS_DIR = translations
 METADATA_FILE = metadata.json
+LICENSE_FILE = LICENSE
+
+README_FILE = README.md
 ZIP_README = docs/INSTALL_ZIP.md
+GIT_README = docs/INSTALL_GIT.md
 
 SYSTEM_BLACKLIST_FILE = system_blacklist_paths.conf
 SYSTEM_WHITELIST_FILE = system_whitelist_paths.conf
@@ -33,8 +37,12 @@ version:
 check:
 	@test -f "$(PYTHON_FILE)" || (echo "Missing $(PYTHON_FILE)" && exit 1)
 	@test -f "$(TRANSLATION_SCRIPT)" || (echo "Missing $(TRANSLATION_SCRIPT)" && exit 1)
+	@test -f "$(TRANSLATIONS_DIR)/$(DOMAIN).pot" || true
 	@test -f "$(METADATA_FILE)" || (echo "Missing $(METADATA_FILE)" && exit 1)
+	@test -f "$(LICENSE_FILE)" || (echo "Missing $(LICENSE_FILE)" && exit 1)
+	@test -f "$(README_FILE)" || (echo "Missing $(README_FILE)" && exit 1)
 	@test -f "$(ZIP_README)" || (echo "Missing $(ZIP_README)" && exit 1)
+	@test -f "$(GIT_README)" || (echo "Missing $(GIT_README)" && exit 1)
 	@test -f "$(SYSTEM_BLACKLIST_FILE)" || (echo "Missing $(SYSTEM_BLACKLIST_FILE)" && exit 1)
 	@test -f "$(SYSTEM_WHITELIST_FILE)" || (echo "Missing $(SYSTEM_WHITELIST_FILE)" && exit 1)
 	@test -f "$(EXAMPLE_USER_BLACKLIST_FILE)" || (echo "Missing $(EXAMPLE_USER_BLACKLIST_FILE)" && exit 1)
@@ -112,15 +120,24 @@ clean:
 dist: all
 	rm -rf "$(DIST_DIR)"
 	mkdir -p "$(DIST_DIR)/$(DOMAIN)"
+	mkdir -p "$(DIST_DIR)/docs"
+
+	cp "$(LICENSE_FILE)" "$(DIST_DIR)/"
+	cp "$(README_FILE)" "$(DIST_DIR)/"
 	cp "$(PYTHON_FILE)" "$(DIST_DIR)/"
-	cp "$(ZIP_README)" "$(DIST_DIR)/README.md"
+
+	cp "$(ZIP_README)" "$(DIST_DIR)/docs/"
+	cp "$(GIT_README)" "$(DIST_DIR)/docs/"
+
 	cp "$(METADATA_FILE)" "$(DIST_DIR)/$(DOMAIN)/"
 	cp "$(SYSTEM_BLACKLIST_FILE)" "$(DIST_DIR)/$(DOMAIN)/"
 	cp "$(SYSTEM_WHITELIST_FILE)" "$(DIST_DIR)/$(DOMAIN)/"
 	cp "$(EXAMPLE_USER_BLACKLIST_FILE)" "$(DIST_DIR)/$(DOMAIN)/"
 	cp "$(EXAMPLE_USER_WHITELIST_FILE)" "$(DIST_DIR)/$(DOMAIN)/"
 	cp -r "$(TRANSLATIONS_DIR)" "$(DIST_DIR)/$(DOMAIN)/"
+
 	find "$(DIST_DIR)/$(DOMAIN)/$(TRANSLATIONS_DIR)" -name "*.po" -delete
 	find "$(DIST_DIR)/$(DOMAIN)/$(TRANSLATIONS_DIR)" -name "*.pot" -delete
+
 	cd "$(BUILD_DIR)" && zip -r "../$(PACKAGE_NAME)" "$(DOMAIN)-$(VERSION)"
 	@echo "Created $(PACKAGE_NAME)"

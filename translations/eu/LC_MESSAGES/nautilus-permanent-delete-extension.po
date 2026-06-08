@@ -119,20 +119,20 @@ msgstr "Bertan behera uzten..."
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:831
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:844
 msgid "Some Items Could Not Be Deleted"
-msgstr ""
+msgstr "Ezin izan dira elementu batzuk ezabatu"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:849
 msgid "Some items could not be deleted because an error occurred."
-msgstr ""
+msgstr "Ezin izan dira elementu batzuk ezabatu errore bat gertatu delako."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:870
 #, python-format
 msgid "%d more errors were not shown."
-msgstr ""
+msgstr "Beste %d errore ez dira erakutsi."
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:881
 msgid "_Close"
-msgstr ""
+msgstr "_Itxi"
 
 #: /home/dwd/git/nautilus-permanent-delete-extension/nautilus_permanent_delete_extension.py:893
 msgid "Deletion canceled."

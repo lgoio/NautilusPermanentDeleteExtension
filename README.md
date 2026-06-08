@@ -4,6 +4,14 @@ A Nautilus Python extension that provides an alternative permanent delete workfl
 
 ![Screenshot](docs/images/nautilus-permanent-delete-extension.png)
 
+## Warning
+
+This extension permanently deletes files and folders.
+
+Deleted data cannot be recovered. Always verify the selected items before confirming a deletion.
+
+Use at your own risk.
+
 ## Features
 
 * Permanent delete context menu entry for Nautilus
